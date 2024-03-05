@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+main {
+  background-color: #6610f2;
+}
+.container {
+  /* max-width: 1300px; */
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 60px;
+  margin: 15px 0;
+}
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-logo {
+  padding: 10px 0;
+}
+.nav-logo a {
+  font-size: 32px;
+  font-weight: 600;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+.nav-link {
+  padding: 10px;
+}
+.nav-link a {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: url(images/bg-dot.png), url(images/bg-dot.png),
+    url(images/bg-round.png), url(images/bg-tree.png);
+  background-position: 10px 10px, bottom 215px right 10px, left 55% top -1%,
+    left 45% bottom -1px;
+  background-repeat: no-repeat;
+}
+
+.curve-img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  padding: 0 60px;
+  gap: 30px;
+}
+
+.row h2,
+.row p {
+  color: #fff;
+}
+.row h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.row p {
+  margin-bottom: 25px;
+}
+.coulmn {
+  width: 50%;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+}
+.btn {
+  padding: 14px 26px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.btn:last-child {
+  background: #6610f2;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn:last-child:hover {
+  background: #fff;
+  color: #000;
+}
+.hero-img {
+  width: 90%;
+  z-index: 10;
+  position: relative;
+  margin-left: 20px;
+}
